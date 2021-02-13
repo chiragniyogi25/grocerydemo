@@ -26,7 +26,8 @@
                 </ul>
 
                 <form class="d-flex">
-                    <input class="form-control me-2" id = "searchTxt" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" id="searchTxt" type="search" placeholder="Search"
+                        aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
@@ -36,13 +37,27 @@
     <!-- my-3 is added to add space vertically from above -->
     <div class="container my-3">
         <h1>Welcome to Magic Notes</h1>
-        <div class="card">
+        <!-- <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Add a note</h5>
+                <h5 class="card-title">Add a Title</h5>
+                <div class="form-group">
+                    <textarea class="form-control" id="addTitle"></textarea>
+                </div>
+            </div>
+        </div> -->
+        <div class="card" id = "gui">
+            <div class="card-body">
+                <div class="form-group">
+                    <h5 class="card-title">Add title</h5>
+                    <input type="text" class="form-control" id="addTitle" aria-describedby="title"
+                        placeholder="Enter Title">
+                </div>
+
+                <h5 class="card-title my-3">Add a note</h5>
                 <div class="form-group">
                     <textarea class="form-control" id="addTxt" rows="3"></textarea>
                 </div>
-                <button class="btn btn-primary" id="addBtn">Add Note</button>
+                <button class="btn btn-primary my-2" id="addBtn">Add Note</button>
             </div>
         </div>
 
