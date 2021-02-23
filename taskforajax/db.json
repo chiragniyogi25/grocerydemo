@@ -1,0 +1,68 @@
+{
+    "database": {
+        "fruits": [
+            {
+                "name": "apple",
+                "price": 60,
+                "pieces": 2,
+                "id": 1
+            },
+            {
+                "name": "banana",
+                "price": 40,
+                "pieces": 12,
+                "id": 2
+            },
+            {
+                "name": "orange",
+                "price": 3,
+                "pieces": 60,
+                "id": 3
+            },
+            {
+                "name": "Mango",
+                "price": 101,
+                "pieces": 1,
+                "id": 4
+            },
+            {
+                "name": "Guava",
+                "price": 20,
+                "pieces": 2,
+                "id": 5
+            }
+        ],
+        "vegetables": [
+            {
+                "name": "carrot",
+                "price": 60,
+                "weight": 1,
+                "id": 1
+            },
+            {
+                "name": "cabbage",
+                "price": 10,
+                "weight": 0.75,
+                "id": 2
+            },
+            {
+                "name": "Bhendi",
+                "price": 40,
+                "weight": 1,
+                "id": 3
+            },
+            {
+                "name": "lowki",
+                "price": 10,
+                "weight": 0.25,
+                "id": 4
+            },
+            {
+                "name": "Cauliflower",
+                "price": 20,
+                "weight": 1,
+                "id": 5
+            }
+        ]
+    }
+}
